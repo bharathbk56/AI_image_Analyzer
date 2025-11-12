@@ -9,15 +9,6 @@ It’s simple, fast, and perfect for understanding images at a glance.
 -  Works automatically on right-click or custom trigger
 -  Uses modern AI APIs for intelligent results
 
-
-## 🧩 Project Structure
-
-ai-image-analyzer/
-├── manifest.json   # Defines the Chrome extension settings
-├── background.js   # Handles background logic and API communication
-└── content.js      # Injects code into webpages to capture image data
-
-
 ## 🛠️ Installation
 1. Download or clone this repository:
    bash
