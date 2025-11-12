@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Describe AI",
+  "version": "1.0",
+  "description": "Right-click any image to get a one-line AI description using Gemini.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
